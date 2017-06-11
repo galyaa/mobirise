@@ -1,0 +1,803 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "name": "aziatskakuhnya",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 20,
+    "versionPublish": "3.12.1",
+    "favicon": "",
+    "noImageResize": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_anchor": "header1-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "FULL SCREEN INTRO",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Mobirise."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-0",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/infsait-1400x958.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "<i>Азиатска &nbsp;кухня</i>",
+          "text": "Ястията и деликатеси от Азия",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>",
+          "_styles": {
+            "H3": {
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "46px"
+            },
+            "P": {
+              "font-size": "25px"
+            }
+          }
+        },
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#d14841",
+              "text-align": "left",
+              "font-size": "46px",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            ".mbr-section-lead": {
+              "color": "#9c9a9a"
+            },
+            ".mbr-section-lead B": {
+              "color": "#000000",
+              "text-align": "center",
+              "font-family": "'Roboto Slab', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-4",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "left",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "Азиатска кухня",
+          "text": "<br><b style=\"font-style: normal;\">В зависимост от стила на готвене и културните корени на местните жители кухните на отделните райони на Азия &nbsp; се разделят на:<br><br>    Източноазиатска кухня – включва предимно Китай, Япония и Корейския полуостров;<br>    Югоизточноазиатска кухня – в нея се включват кухните на Камбоджа, Лаос, Тайланд, Виетнам, Бруней, Индонезия, Малайзия, Сингапур и Филипините;<br>    Южноазиатска кухня – Индия, Бирма, Шри Ланка и Пакистан[1]<br><br>В България и повечето Европейски страни тази кухня е наричана Ориенталска кухня. В Англосаксонските страни се използва и термин, който смислово е аналогичен на Иидустанска кухня, но е общ за кухните от полуостровите Индустан и Индо-Китай .<br>Сред основните характеристики на азиатската кухня е широкото използване на ориз и юфка (на основата на пшеница или ориз). Други характерни особености са изобилието на подправки, лютивите ястия, ниското съдържание на мазнини и соевите продукти.<br><br>Като прибори за хранене обикновено се използва специални пръчки.</b><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>"
+        },
+        {
+          "_inherit": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#28262b"
+            },
+            ".mbr-section-text": {
+              "color": "#565656"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header6",
+          "_anchor": "header6-6",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.9",
+            "overlayColor": "#ccc",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/-1400x935.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Японска кухня",
+          "text": ".Японската кухня е особено интересна и привлича много почитатели във всички точки на планетата. Много от традиционните ястия в страната се доближават или имат идентични основи с тези на съседните страни. Въпреки това в понятието японска кухня отдавна е отпаднала представата просто за готвене. Наред с важността храната да изглежда добре, тя трябва да има и съответните вкусови качества.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>"
+        },
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000",
+              "font-size": "46px"
+            },
+            ".mbr-section-lead": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-7",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "left",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "",
+          "text": "Мястото на ориза<br><br>Така например една от основните съставки в японската кухня – оризът се използва и по чисто практични причини – висока калоричност. Оризът съдържа голямо количество въглехидрати около 75% до 85%, а около 5% до 10% са протеини. Тези вещества са с много висока усвояемост от организма около 96%. Това прави оризът изключително хранителен. Една от предпоставките за неговото непрекъснато присъствие в различните ястия от японската кухня.<br>Една от традициите на залегнали в хранителните навици на населението е консумацията на саке. Но според правилата на цялата японска кухня местната напита саке не се консумира едновременно с яденето на ориз.<br>Маринованата храна и японска кухня<br><br>Има няколко интересни факта за типичната японска кухня относно типът храна, която се консумира. Така например традиционно е мариноването. Този процес се прилага основно за риба, а както е добре известно по такъв начин е получено и сушито. Маринованата риба се използва не само при приготвянето на суши, но и при други ястия като например сашими.<br>Бульонът е друга традиционна за тази кухня. Той се вари и след това се прибавя към различни ястия – например супа. Има и вариант да се консумира като отделно ястие.<br>Пържените ястия също са част от японската кухня. Пример за едно такова ястие е темпурата. Тя се приготвя изключително лесно, а резултата определено впечатлява със своите вкусови качества. Използва се както за месо, така и за зеленчуци.<br>Много често в традиционната в нея присъстват и плодовете. Те обикновено се поднасят в прясно състояние – почти необработени. Редовно, дори в днешни дни менюто на японците завършва с тънко нарязани парчета сезонен плод, който се поднася красиво подреден в купичка. Често се прибавят и допълнителни вкусове като например глазура от белтъци.<br>Специални храни<br><br>Има и една определена група храни, които са традиционни за японската кухня, но се приготвят сравнително рядко. Подобни ястия се поднасят само в конкретни случаи. Една такава специфична храна е кайсеки. Този храна е смесица от изкуство и феерия от вкусове. Поднася се традиционната чаена церемония, която в исторически план е много известна по света и се отличава с красота и изящество. От друга страна днес този ритуал е доста повече атракция и доста по – малко традиция.<br><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>"
+        },
+        {
+          "_inherit": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#28262b"
+            },
+            ".mbr-section-text": {
+              "color": "#565656"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header6",
+          "_anchor": "header6-8",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.9",
+            "overlayColor": "#ccc",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/26-delicious-korean-foods-you-need-in-your-life-2-30138-1490814365-13-dblbig-1400x929.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Корейска кухня",
+          "text": "Поради честите исторически и културни промени в Източна Азия, Корея има много общи черти с Китай и Япония по отношение на хранителните си навици. С времето тя развива своя собствена и уникална кухня.<br>Корея е била главно земеделска страна, в тези условия вареният ориз става неизменна част от храната. Традиционното корейско блюдо се състои от купа ориз и допълнителни блюда. Корейците използват разнообразни съставки като месо, риба, зеленчуци и морски дарове съчетани с уникални подправки. Поради различните начини на готвене на съставките, корейците са разработили различни видове готварство (изкуство за приготвяне на храната за консумация).&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>"
+        },
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000"
+            },
+            ".mbr-section-lead": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-9",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "left",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "",
+          "text": "Пап (밥), или варен ориз, е основна храна в корейската кухня. Ечемик, просо, боб и червен боб са смесвани с ориз за придобиване на по-особен вкус и хранителна стойност на приготвеното. Чук (죽), или каша, е жито сварено с много вода. Съществуват много видове, като каша с борово семе, морски охлюв, сусам, орехи и папуда (вид дребен боб). Миъм (미음 - овесена каша, от смлян ориз и просо до почти прахообразно състояние, сварени с вода ) е водниста каша, докато ънг и (응이) е водниста нишестена каша.<br>Ненгмьон (냉면 юфка от черно брашно от елда в студена супа), мандугук (만둣국 корейска супа /국/ направена от манду /кнедли, галушка/ и бульон от говеждо месо), токкук (떡국 супа от оризова питка) са част от ежедневната корейска кухня и специални събития. Тези блюда са често консумирани на обяд.<br><br>На корейската трапеза винаги присъстват супи като гук, танг (탕) и джиге (찌개), винаги придружени от купа ориз. Направени са от говеждо, морски дарове и зеленчуци, както и неизменните подправки сол, соев бобен сос, бобена паста и морски деликатеси ферментирали в сол. Най-често сервираните супи на корейската трапеза са супа от водорасли, супа от бобена паста, соллотанг (설렁탕 кокали от говеждо и гърди), юкгеджанг (육개장 люта говежда супа). Джиге, камджонг (감정) и чочхи (조치) са подобни на гук, но с по-гъста консистенция и по-силни на вкус. Изпечени са с бобена паста, паста от червен пипер и скариди ферментирали в сол. Камджонг се отнася към джиге изпечен с паста от червен пипер. Чочхи е понятие за джиге сервирано по време на кралското хранене. <br>Намул (나물), зеленчуци или зелена салата, са допълнителни блюда на корейската трапеза. Докато намул се отнася до суровите и приготвени зеленчуци, свързва се с прясно приготвена храна. Почти всички налични сезонни зеленчуци се използват за намул. Корейците често нанизват и сушат съставките за намул, за да имат налични, когато не са в сезона. Намул се приготвя зависимост от съставките. Зеленчуците със зелени листа се сваряват леко и се овкусяват със сол, соев сос, сусам, сусамово олио и чесън. Китайските камбанки (растение) се сваряват и запържват, като се бъркат с подправките. Пресните зеленчуци не се варят, смесват се със сладко-кисели подправки.<br>Куи (구이), или печени ястия, се появяват в корейската кухня, когато корейците започват да използват огъня в готвенето. Необияни (너비아니) е вид печено, сервирано в кралската кухня. Тънко нарязано говеждо месо, мариновано с пулгоги сос (соев сос, захар, чесън, зелен лук и сусамово олио) и изпечено на маса на дървени въглища.<br>Санджок (산적) е печено месо на шиш, направено от месо, зеленчуци и гъби. Както и при намул, така и при санджок има различни видове зависимост от съставките. Например санджок направен от говеждо, зеленчуци и гъби, зелен лук и риба. Санджок е красиво ястие, придаващо цвят на масата. <br>Чон (전) е ястие, което се пържи в тиган. Нарича се още 전유어 или 전유화 . Ястието включва тънко нарязано месо, риба и зеленчуци, които са обвити с брашно, потопени в яйца и изпържени в тиган.<br><br>장아찌 са зеленчуци, мариновани със соев сос, паста от червен пипер или соева паста. Те се съхраняват дълго време, като се използват през зимния период, когато е трудно да се намерят пресни зеленчуци. Други видове зимнина са пугак부각 (пържени зеленчуци с нишисте) и по (сушена риба или месо). Yukpo е най-популярния вид сушене. Представлява говеждо на тънки парчета, мариновано в соев сос, след това изсушено на сянка. Често се сервира като мезе или при сватбени церемонии. Кимчито е на най-популярната туршия в корейската кухня. То е немислима част от корейските ястия. Много корейци казват, че не могат да ядат без кимчи. Кимчито се приготвя по различен начин, също зависи от съставките и района.<br>회 /Хуи/ е сурова риба или месо, и зеленчуци сервирани с паста от лют червен пипер с оцет и захар, соев сос с оцет и захар, горчица, сол и сусамово олио. Сукхуи е подобен на хуи, но съставките се сваряват леко. По-известни съставки за сукхуи са леко сварен магданоз, зелен лук и стрък фатсия (вид храстовидно растение).<br>Сам (쌈) е уникален начин на хранене в корейската кухня, предпочитан от повечето корейци. Представлява загъване на храната в маруля, китайско зеле, сусамови листа, пресни водорасли или сушени водорасли, като в листото се слага ориз и соева паста. <br><br>Корейците винаги приготвят ток (떡) за празници и други по-специални случаи. Днес все по-често се използва като десерт. Различни са видовете ток. Шируток е оризово брашно смесено с други съставки, приготвено на пара в siru, глинен съд. Jeolpyeon (절편) /вид оризово кексче/ и инчолми /인절미)/ са приготвени на пара от лепкав ориз, счуквайки го докато стане твърдо и лепкаво тесто. Bukkumi /부꾸미/ и hwajeon /화전/ е замесено лепкаво оризово тесто, оформено на малки кръгове и изпържено. Jeungpyeon /증편/ е оризов кейк приготвен на пара от бяло оризово брашно и оризово вино. Нарича се още Sultteok, оризови винени кексчета. Yaksik /якшик/, нарича се още yakban и yakbap, е лепкав ориз, приготвен с кестени, jujubes /чучуб/ (корейски желирани бонбони), мед, борово семе и канела.<br>Hangwa /한과/ са традиционни корейски сладки. Това е оризово или пшеничено тесто с мед, лепкава оризова захар и захар, силно изпържено. Прави се от плодове и корени, залети с меден сироп, докато се глазират. Нарича се още jogwa, което означава сладки направени от естествени продукти, с добавен миризми. Други видове hangwa , като yakgwa (пържени медени сладки), sanja (пържени оризови сладки), yyeotgangjeong (малцов карамел), и jeonggwa (захаросани плодове и корени).",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>"
+        },
+        {
+          "_inherit": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#28262b"
+            },
+            ".mbr-section-text": {
+              "color": "#565656"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header6",
+          "_anchor": "header6-a",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.9",
+            "overlayColor": "#ccc",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/chinese-625-625x350-1400x784.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Китайска кухня",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>"
+        },
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000"
+            },
+            ".mbr-section-lead": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-b",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "left",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "",
+          "text": "Едно ястие в китайската култура обикновено се разглежда като съставено от две или повече основни съставки: (1) въглехидратен източник на нишесте, обикновено ориз, фиде или мантау (кръгли хлебчета, приготвени на пара) и (2) придружаващи ястия от зеленчуци, месо, риба или други елементи.Тази културна концептуализация донякъде е в контраст с кухните на Северна Европа и САЩ, където месото или животинските белтъчини обикновено се смятат за основно ястие, и, както е в повечето средиземноморски кухни, се базират обикновено на житни съставки като макаронени изделия или кускус.<br><br>Пръчиците за хранене са основен прибор за хранене за твърди храни в китайската култура, а супите и другите течности се ядат с широка лъжица с плоско дъно, традиционно изработена от керамика.[1] Отчита се, че дървените пръчици за хранене губят превъзходството си поради дефицити в дърводобива в Китай и Източна Азия. Много китайски заведения за хранене обмислят преминаване към по-екологични прибори за хранене като пластмасови или бамбукови пръчици. По-скъпи материали, използвани в миналото са слонова кост и сребро. От друга страна, пръчиците за еднократна употреба, направени от дърво или бамбук не са заменили тези за многократна употреба в малките ресторанти.Оризът е незаменима част от повечето китайски ястия. Въпреки това, в много части на Китай, особено в Северен Китай преобладават житните храни като фиде и хлебчета, приготвени на пара (mantou 饅頭) за разлика от южен Китай, където преобладава използването на ориз. Независимо от важността на ориза в китайската кухня, в крайно формална обстановка може да се окаже, че въобще не се сервира ориз. В такъв случай ориз се предлага едва когато не останат никакви други ястия или като символично ястие на края. Супа обикновено се сервира в началото и на края в Южен Китай.<br><br>В повечето ястия в китайската кухня храната се приготвя на хапки (непр. зеленчуците, месото, тофуто), готови за вземане и консумация. В миналото китайската култура е разглеждала използването на нож и вилица на масата за варварско поради това, че тези прибори се смятат за оръжия. Освен това, смятало се е за нелюбезно да се карат гостите да си правят труда да режат храната си. Рибата обикновено се готви и сервира цяла, като ядящите откъсват парченца от нея с пръчиците за хранене, за разлика от други кухни, където рибата първо се филетира. Това е защото е желателно рибата да се сервира възможно най-прясна. В ресторантите сервитьорите често използват две лъжици, за да раздели рибата на порции на масата.<br><br>В китайската кухня всеки отделен хранещ се получава собствена паничка с ориз, а останалите ястия се сервират в общи съдове и се използват от всички седящи на масата заедно. Всеки хранещ се взема храна от общите съдове на хапки с пръчиците си за хранене. Това е в контраст със западния начин на хранене, при който всичко се сипва отделно в началото. За много не-китайци е неудобно това, че личните прибори се потапят в общите съдове. За тази цел се използват допълнителни лъжици или пръчици за сервиране (竹筷, букв. „общи пръчици“). В райони с увеличено западно влияние като Хонконг хранещите се получават всеки по една тежка метална лъжица за тази цел. Избраната храна се яде с ориз заедно или чрез редуване.<br><br>китайски вегетарианци са будисти. Некитайците, хранещи се с китайски ястия, ще забележат, че голям брой популярни зеленчукови ястия всъщност съдържат месо (обикновено свинско), тъй като по традиция парченца месо се използват за овкусяване на ястията. Китайската будистка кухня има много истински вегетариански ястия, които не съдържат месо.<br><br>В края на една формална вечеря обикновено се сервира сладко ястие като нарязани плодове или сладка супа (糖水, букв. „захарна вода“), която се сервира топла.<br><br><br>Често китайската храна извън Китай може да бъде автентична или адаптирана за местните вкусове или дори нещо съвсем новоизмислено. Например чап чой не се сервира в китайските ресторанти в Китай.В традиционната китайска култура студените напитки се смятат за вредни за храносмилането на гореща храна, така че елементи като ледено студена вода или безалкохолни напитки не се сервират по време на ядене. Освен супа, ако други напитки се сервират, те най-вероятно ще бъдат горещ чай или гореща вода. Смята се, че чаят подпомага храносмилането на мазни храни. Независимо от този обичай в наше време бирата и безалкохолните напитки са популярна добавка към храната. Популярна комбинация в много малки ресторанти в части от Китай е горещо ястие със студена бира – комбинация, наричана 冷淡杯(Pinyin: leng3 dan4 bei1, буквално „топла и безвкусна чаша“, въпреки силните подправки), което е в противоречие с това, което би посъветвала традиционната мъдрост.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>"
+        },
+        {
+          "_inherit": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#28262b"
+            },
+            ".mbr-section-text": {
+              "color": "#232323"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header6",
+          "_anchor": "header6-c",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.9",
+            "overlayColor": "#ccc",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/tailandska-kuhnia-1400x1015.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Тайландска кухня",
+          "text": "Тайландската кухня е пикантнал Четири вкуса и “огънят” доминират в тайландската кухня – кисел, сладък, горчив, солен и лютив, който е над останалите. Магията на тайландското ястие е в сливането на вкусовeте.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>"
+        },
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#565656",
+              "font-size": "30px"
+            },
+            ".mbr-section-lead": {
+              "color": "#9c9a9a"
+            },
+            ".mbr-section-title DIV": {
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "24px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-d",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "left",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "<br><div><br></div>Тайландската кухня - регионално определена&nbsp;<div><br></div><div>Ястията в 4-те основни региона на страната (Северен, Североизточен – Исан, Централен и Южен) са повлияни от кухните на съседните държави: Бирма, китайските провинции Юнан и Лаос на север, Камбоджа, Лаос и Виетнам на изток, и Малайзия на юг. Към тях влиза и т.нар  “тайландска кралска кухня”, формирана в двореца на кралство Аютая (1351-1767). Нейната изтънченост, готварски техники и използването на определени съставки оказват силно влияние на кухнята в Централен Тайланд.&nbsp;</div><div>Тайландската кухня  - характерни особености&nbsp;</div><div><br></div><div>&nbsp; &nbsp; Оризът в тайландската кухня е като хляба и картофите в европейските кухни. Той неутрализира вкусовете и “омекотява” лютивината на ястията.</div><div>&nbsp; &nbsp; В тайландската кухня съставките на ястията не се измерват, а се слагат “на око”. Начинаещите готвачи се учат от майстор-готвачите.</div><div><br></div><div>&nbsp; &nbsp; Буболечките са неизменна част от тайландската кухня – червеи, бръмбари, копринени буби, скакалци и т.н. се предлагат на щандове като ядки.</div><div><br></div><div>&nbsp; &nbsp; Тайландската кухня изобилства от морски дарове, пикантни сосове, ориз, зеленчуци и екзотични плодове.</div><div><br></div><div>&nbsp; &nbsp; Тайландските готвачи никога не пържат, а само “деликатно запържват” храната.</div><div><br></div><div>&nbsp; &nbsp; “Том Ям Кунг” е много популярна люта супа от скариди, гъби и лимонова трева.</div><div><br></div><div>&nbsp; &nbsp; Салатата от зелена манго “Сом Там” също е известна по цял свят със специфичния си вкус.</div><div><br></div><div>&nbsp; &nbsp; Лимоновата трева е една от най-използваните подправки в тайландската кухня. Тя придава на ястията специфичен, остър вкус, който не може да бъде сбъркан с нищо друго.</div><div><br></div><div><br><div><br></div></div>",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>"
+        },
+        {
+          "_inherit": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#28262b"
+            },
+            ".mbr-section-text": {
+              "color": "#565656"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header6",
+          "_anchor": "header6-e",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.9",
+            "overlayColor": "#ccc",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/00006034-1400x789.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Индийска кухня",
+          "text": "В Индия използват за храна над 50 бобови и лещени разновидности. Варивата са сърцето на индийската кухня и индийците казват, че могат да не ядат месо, риба и зеленчуци, но не могат да се откажат от любовта си към бобовите.<br><br>Червените, жълтите и черните зърна и ястията с тях носят краткото, но запомнящо се име дал.<br><br>И макар да има няколко задължителни подправки, разнообразието е голямо, варивата може да се съчетават помежду си и да не се повторят дни наред; може да сготвите един вид днес, утре – друг; зърната на сухия нахут, например, може да се запекат преди варене; видовете леща да се комбинират с месо, риба и зеленчуци; може да си изпечете и сладкиш от тях.„Яж дал и роти* (плосък безквасен хляб – бел. ред.), пей си имената Божи”, гласи популярна поговорка в Индия. За повечето индийци варивата са главен източник на протеини, фолиева киселина, калий и са благотворни за храносмилателната система, а броят на ястията с дал е огромен.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-j",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "CONTACT FORM",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "form": {
+            "action": "galia.tod95@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+        }
+      ]
+    }
+  }
+}
